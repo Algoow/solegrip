@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoleGrip Shoe Grip Enhancer</title>
+    <link rel="icon" type="image/png" href="webicon.png">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#DC2626',
+                            brightRed: '#EF4444',
+                            darkRed: '#991B1B',
+                            dark: '#0A0A0C',
+                            card: '#121216',
+                            border: '#272730',
+                            muted: '#9CA3AF'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Oswald', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Oswald:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0A0A0C;
+            color: #F3F4F6;
+            overflow-x: hidden;
+        }
+        .font-display {
+            font-family: 'Oswald', sans-serif;
+        }
+        .glow-red {
+            box-shadow: 0 0 35px rgba(220, 38, 38, 0.45);
+        }
+        .gradient-text-red {
+            background: linear-gradient(135deg, #F87171 0%, #EF4444 50%, #991B1B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-panel {
+            background: rgba(18, 18, 22, 0.90);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(220, 38, 38, 0.25);
+        }
+        .carbon-bg {
+            background-color: #0A0A0C;
+            background-image: radial-gradient(rgba(220, 38, 38, 0.12) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="carbon-bg min-h-screen flex flex-col justify-between antialiased selection:bg-brand-red selection:text-white pb-20 md:pb-0">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-40 glass-panel border-b border-brand-border transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2">
+                <span class="text-2xl font-extrabold tracking-wider font-display uppercase text-white">
+                    SOLE<span class="text-brand-brightRed">GRIP</span>
+                </span>
+                   </a>
+
+            <nav class="hidden md:flex items-center gap-8 text-xs font-bold uppercase tracking-wider text-gray-300">
+                <a href="#features" class="hover:text-brand-brightRed transition-colors">Key Features</a>
+                <a href="#tiktok-reviews" class="hover:text-brand-brightRed transition-colors">TikTok Reviews</a>
+                <a href="#stores" class="hover:text-brand-brightRed transition-colors">Official Stores</a>
+                <a href="#order" class="hover:text-brand-brightRed transition-colors">Wholesale Inquiries</a>
+            </nav>
+
+            <a href="#order" class="bg-gradient-to-r from-brand-red to-brand-darkRed text-white font-extrabold text-xs uppercase tracking-wider px-4 py-2.5 rounded-lg shadow-lg glow-red hover:brightness-110 transition duration-300">
+                Bulk Order 
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative pt-8 pb-16 md:pt-16 md:pb-24 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- Text Content -->
+                    <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                        <div class="inline-flex items-center gap-2 bg-brand-red/10 border border-brand-red/30 rounded-full px-4 py-1.5 text-xs font-extrabold text-brand-brightRed uppercase tracking-wider">
+                            <i class="fa-solid fa-fire text-brand-brightRed animate-bounce"></i> #1 SHOE GRIP ENHANCER IN THE PHILIPPINES
+                        </div>
+
+                        <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold font-display uppercase tracking-tight leading-none text-white">
+                            DOMINATE THE COURT WITH <span class="gradient-text-red">UNSTOPPABLE TRACTION</span>
+                        </h1>
+
+                        <p class="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                            SoleGrip Shoe Grip Enhancer Spray - Water-Based, Zero Sticky Residue, Instant Squeak & Grip. As featured by top Philippine basketball content creators.
+                        </p>
+
+                        <!-- Highlight Badges -->
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-3 py-2">
+                            <div class="flex items-center gap-2 bg-brand-card border border-brand-red/30 px-3.5 py-2 rounded-lg text-xs font-semibold text-gray-200">
+                                <i class="fa-solid fa-droplet text-brand-brightRed"></i> 100% Water-Based
+                            </div>
+                            <div class="flex items-center gap-2 bg-brand-card border border-brand-red/30 px-3.5 py-2 rounded-lg text-xs font-semibold text-gray-200">
+                                <i class="fa-solid fa-bolt text-amber-400"></i> Instant Grip Boost
+                            </div>
+                            <div class="flex items-center gap-2 bg-brand-card border border-brand-red/30 px-3.5 py-2 rounded-lg text-xs font-semibold text-gray-200">
+                                <i class="fa-solid fa-shield-halved text-emerald-400"></i> Safe for All Rubber Soles
+                            </div>
+                        </div>
+
+                        <!-- CTA Group -->
+                        <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                            <a href="#order" class="w-full sm:w-auto bg-gradient-to-r from-brand-red via-red-600 to-brand-darkRed text-white font-extrabold text-base uppercase tracking-wider px-8 py-4 rounded-xl shadow-2xl glow-red hover:brightness-110 transition duration-300 text-center flex items-center justify-center gap-3">
+                                <span>Bulk Order / Wholesale</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="#stores" class="w-full sm:w-auto bg-brand-card border border-brand-border hover:border-brand-red text-gray-300 hover:text-white font-bold text-base px-6 py-4 rounded-xl transition duration-300 text-center flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-store text-brand-brightRed"></i> Shop on E-Commerce Platforms
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Product Image Display -->
+                    <div class="lg:col-span-5 flex justify-center relative">
+                        <div class="relative w-full max-w-sm">
+                            <div class="absolute -inset-2 bg-gradient-to-r from-brand-red via-brand-brightRed to-amber-500 rounded-3xl blur-2xl opacity-40 animate-pulse"></div>
+
+                            <div class="relative bg-brand-card border-2 border-brand-red/50 rounded-3xl p-6 shadow-2xl flex flex-col items-center text-center">
+                                <div class="w-full h-80 my-2 relative flex items-center justify-center overflow-hidden rounded-2xl bg-black/50 border border-brand-border p-4">
+                                    <img src="solegrip.png" alt="SoleGrip Shoe Grip Enhancer Spray 60ml" class="max-h-full max-w-full object-contain drop-shadow-2xl z-10" onerror="this.onerror=null; this.style.display='none'; document.getElementById('fallbackGraphic').classList.remove('hidden');">
+                                    
+                                    <!-- Fallback Graphic -->
+                                    <div id="fallbackGraphic" class="hidden w-full h-full flex flex-col items-center justify-center">
+                                        <svg class="w-48 h-64 drop-shadow-2xl" viewBox="0 0 200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="85" y="20" width="30" height="25" rx="3" fill="#18181B" stroke="#272730" stroke-width="2"/>
+                                            <rect x="75" y="45" width="50" height="15" rx="3" fill="#DC2626"/>
+                                            <rect x="65" y="60" width="70" height="200" rx="16" fill="url(#bottle-red-grad)" stroke="#EF4444" stroke-width="2"/>
+                                            <rect x="70" y="90" width="60" height="140" rx="6" fill="#0A0A0C" stroke="#DC2626" stroke-width="1.5"/>
+                                            <text x="100" y="125" text-anchor="middle" fill="#FFFFFF" font-family="Oswald" font-weight="bold" font-size="16">SOLE</text>
+                                            <text x="100" y="145" text-anchor="middle" fill="#EF4444" font-family="Oswald" font-weight="bold" font-size="20">GRIP</text>
+                                            <text x="100" y="165" text-anchor="middle" fill="#F3F4F6" font-family="Inter" font-weight="bold" font-size="8">TRACTION SPRAY</text>
+                                            <rect x="80" y="180" width="40" height="18" rx="4" fill="#DC2626"/>
+                                            <text x="100" y="193" text-anchor="middle" fill="#FFFFFF" font-family="Inter" font-weight="extrabold" font-size="10">60 ML</text>
+                                            <defs>
+                                                <linearGradient id="bottle-red-grad" x1="65" y1="60" x2="135" y2="260" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#27272A"/>
+                                                    <stop offset="1" stop-color="#0A0A0C"/>
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="w-full bg-black/60 rounded-xl p-3 border border-brand-border flex items-center justify-between text-left">
+                                    <div>
+                                        <p class="text-[10px] text-brand-muted font-bold uppercase">Official Bottle Size</p>
+                                        <p class="text-sm font-bold text-white">60 ml Spray Bottle</p>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="text-brand-brightRed font-extrabold text-xl">₱200</span>
+                                        <p class="text-[10px] text-emerald-400 font-bold">Ready for Bulk</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Specs & Features Section -->
+        <section id="features" class="py-16 relative bg-black/40 border-t border-b border-brand-border">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-xs font-bold text-brand-brightRed tracking-widest uppercase mb-2">ENGINEERED FOR MULTI-SPORT PERFORMANCE</h2>
+                    <p class="text-3xl sm:text-5xl font-extrabold font-display uppercase tracking-tight text-white">
+                        PRODUCT <span class="gradient-text-red">SPECIFICATIONS & FEATURES</span>
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-brand-card border border-brand-border hover:border-brand-red p-6 rounded-2xl transition duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-brand-red/10 text-brand-brightRed flex items-center justify-center text-xl font-bold mb-4 group-hover:scale-110 transition transform">
+                            <i class="fa-solid fa-droplet"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white font-display uppercase mb-2">Water-Based Formula</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Clean, water-based, non-toxic formula that removes court dust and restores factory friction without ruining shoe outsoles.
+                        </p>
+                    </div>
+
+                    <div class="bg-brand-card border border-brand-border hover:border-brand-red p-6 rounded-2xl transition duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-brand-red/10 text-brand-brightRed flex items-center justify-center text-xl font-bold mb-4 group-hover:scale-110 transition transform">
+                            <i class="fa-solid fa-ban"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white font-display uppercase mb-2">Zero Sticky Residue</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            No sticky chemicals or harsh adhesives that attract more dust. Dries cleanly and maintains rubber health.
+                        </p>
+                    </div>
+
+                    <div class="bg-brand-card border border-brand-border hover:border-brand-red p-6 rounded-2xl transition duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-brand-red/10 text-brand-brightRed flex items-center justify-center text-xl font-bold mb-4 group-hover:scale-110 transition transform">
+                            <i class="fa-solid fa-stopwatch"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white font-display uppercase mb-2">Quick Drying Seconds</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Quick drying in seconds. Ideal for instant timeout application during games and intensive training sessions.
+                        </p>
+                    </div>
+
+                    <div class="bg-brand-card border border-brand-border hover:border-brand-red p-6 rounded-2xl transition duration-300 group">
+                        <div class="w-12 h-12 rounded-xl bg-brand-red/10 text-brand-brightRed flex items-center justify-center text-xl font-bold mb-4 group-hover:scale-110 transition transform">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white font-display uppercase mb-2">Multi-Sport Approved</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Tested and proven for indoor and outdoor courts in basketball, badminton, volleyball, and tennis.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TikTok Influencer Reviews Section -->
+        <section id="tiktok-reviews" class="py-16 relative">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-xs font-bold text-brand-brightRed tracking-widest uppercase mb-2">FEATURED CREATORS ON TIKTOK</h2>
+                    <p class="text-3xl sm:text-5xl font-extrabold font-display uppercase tracking-tight text-white">
+                        REVIEWED BY <span class="gradient-text-red">TOP TIKTOK ATHLETES</span>
+                    </p>
+                    <p class="text-gray-400 text-sm mt-2">Watch how leading hoopers and coaches test SoleGrip on court.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Influencer 1: Eduard Zeller -->
+                    <div class="bg-brand-card border border-brand-border hover:border-brand-red/50 p-6 rounded-2xl flex flex-col justify-between transition">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-black text-brand-brightRed border border-brand-red/50 flex items-center justify-center font-bold">
+                                        <i class="fa-brands fa-tiktok"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-bold text-white">Eduard Zeller</p>
+                                        <p class="text-xs text-brand-muted">@eduard_zeller</p>
+                                    </div>
+                                </div>
+                                <span class="bg-brand-red/20 text-brand-brightRed text-[10px] font-bold px-2.5 py-1 rounded-full border border-brand-red/40">
+                                    Hoops Creator
+                                </span>
+                            </div>
+                            <p class="text-gray-200 text-sm leading-relaxed mb-6 italic">
+                                "Tested and proven for reliable grip on dusty courts. Essential for maintaining clean traction during intense runs."
+                            </p>
+                        </div>
+                        <div class="border-t border-brand-border pt-4">
+                            <a href="https://www.tiktok.com/@eduard_zeller/video/7342866335602429190" target="_blank" rel="noopener noreferrer" class="w-full bg-black hover:bg-brand-red/20 border border-brand-red/40 text-white font-bold text-xs py-3 rounded-xl flex items-center justify-center gap-2 transition">
+                                <i class="fa-brands fa-tiktok text-brand-brightRed"></i>
+                                <span>Watch TikTok Review</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Influencer 2: FlyingBam -->
+                    <div class="bg-brand-card border border-brand-border hover:border-brand-red/50 p-6 rounded-2xl flex flex-col justify-between transition">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-black text-brand-brightRed border border-brand-red/50 flex items-center justify-center font-bold">
+                                        <i class="fa-brands fa-tiktok"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-bold text-white">FlyingBam</p>
+                                        <p class="text-xs text-brand-muted">@flyingbam15</p>
+                                    </div>
+                                </div>
+                                <span class="bg-brand-red/20 text-brand-brightRed text-[10px] font-bold px-2.5 py-1 rounded-full border border-brand-red/40">
+                                    Baller / Dunker
+                                </span>
+                            </div>
+                            <p class="text-gray-200 text-sm leading-relaxed mb-6 italic">
+                                "Instant squeak and solid traction boost. Makes a massive difference when planting hard on quick crossovers."
+                            </p>
+                        </div>
+                        <div class="border-t border-brand-border pt-4">
+                            <a href="https://www.tiktok.com/@flyingbam15/video/7261148271060487429" target="_blank" rel="noopener noreferrer" class="w-full bg-black hover:bg-brand-red/20 border border-brand-red/40 text-white font-bold text-xs py-3 rounded-xl flex items-center justify-center gap-2 transition">
+                                <i class="fa-brands fa-tiktok text-brand-brightRed"></i>
+                                <span>Watch TikTok Review</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Influencer 3: Coach Julius Manalo -->
+                    <div class="bg-brand-card border border-brand-border hover:border-brand-red/50 p-6 rounded-2xl flex flex-col justify-between transition">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-black text-brand-brightRed border border-brand-red/50 flex items-center justify-center font-bold">
+                                        <i class="fa-brands fa-tiktok"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm font-bold text-white">Coach Julius Manalo</p>
+                                        <p class="text-xs text-brand-muted">@julioenforcer</p>
+                                    </div>
+                                </div>
+                                <span class="bg-brand-red/20 text-brand-brightRed text-[10px] font-bold px-2.5 py-1 rounded-full border border-brand-red/40">
+                                    Coach / Enforcer
+                                  </span>
+                            </div>
+                            <p class="text-gray-200 text-sm leading-relaxed mb-6 italic">
+                                "Great traction enhancement for team training and competitive games. Highly recommended for players prone to sliding."
+                            </p>
+                        </div>
+                        <div class="border-t border-brand-border pt-4">
+                            <a href="https://www.tiktok.com/@julioenforcer/video/7313569846921415941" target="_blank" rel="noopener noreferrer" class="w-full bg-black hover:bg-brand-red/20 border border-brand-red/40 text-white font-bold text-xs py-3 rounded-xl flex items-center justify-center gap-2 transition">
+                                <i class="fa-brands fa-tiktok text-brand-brightRed"></i>
+                                <span>Watch TikTok Review</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Linked E-Commerce Stores Section -->
+        <section id="stores" class="py-16 relative bg-black/40 border-t border-b border-brand-border">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-brand-card border-2 border-brand-red/30 rounded-3xl p-8 lg:p-12 text-center relative overflow-hidden">
+                    <span class="bg-brand-red/20 text-brand-brightRed font-extrabold text-xs uppercase tracking-widest px-3 py-1 rounded-full border border-brand-red/40 inline-block mb-3">
+                        OFFICIAL OUTLETS
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold font-display uppercase text-white mb-4">
+                        BUY SOLEGRIP ON YOUR PREFERRED PLATFORM
+                    </h2>
+                    <p class="text-gray-300 text-sm sm:text-base max-w-2xl mx-auto mb-8">
+                        Available on major Philippines e-commerce platforms with fast nationwide shipping and official vouchers!
+                    </p>
+
+                    <!-- E-Commerce Buttons -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
+                        <a href="https://vt.tiktok.com/ZS9UqodxynLMs-mhWBl/" target="_blank" rel="noopener noreferrer" class="bg-black/80 hover:bg-black border border-brand-red/50 p-4 rounded-xl flex items-center justify-between group transition duration-300">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-black text-brand-brightRed border border-brand-red/60 flex items-center justify-center font-bold text-xl">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </div>
+                                <div class="text-left">
+                                    <p class="text-[10px] text-gray-400 font-semibold uppercase">SoleGrip</p>
+                                    <p class="text-sm font-bold text-white">TikTok Shop</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-gray-400 group-hover:text-brand-brightRed group-hover:translate-x-1 transition"></i>
+                        </a>
+
+                        <a href="https://ph.shp.ee/1HQrpXtV" target="_blank" rel="noopener noreferrer" class="bg-[#EE4D2D]/20 hover:bg-[#EE4D2D]/35 border border-[#EE4D2D]/60 p-4 rounded-xl flex items-center justify-between group transition duration-300">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-[#EE4D2D] text-white flex items-center justify-center font-bold text-xl">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </div>
+                                <div class="text-left">
+                                    <p class="text-[10px] text-gray-400 font-semibold uppercase">Official Mall</p>
+                                    <p class="text-sm font-bold text-white">Shopee PH</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-gray-400 group-hover:text-white group-hover:translate-x-1 transition"></i>
+                        </a>
+
+                        <a href="https://s.lazada.com.ph/s.ZiuP3X" target="_blank" rel="noopener noreferrer" class="bg-[#0F146D]/30 hover:bg-[#0F146D]/50 border border-[#0F146D] p-4 rounded-xl flex items-center justify-between group transition duration-300">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-[#0F146D] text-white flex items-center justify-center font-bold text-xl">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div class="text-left">
+                                    <p class="text-[10px] text-gray-400 font-semibold uppercase">LazMall Outlet</p>
+                                    <p class="text-sm font-bold text-white">Lazada PH</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-gray-400 group-hover:text-white group-hover:translate-x-1 transition"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bulk Orders / Wholesale Form Section -->
+        <section id="order" class="py-16 relative">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-brand-card border-2 border-brand-red/50 rounded-3xl p-6 sm:p-10 shadow-2xl relative">
+                    
+                    <div class="text-center mb-8">
+                        <span class="bg-brand-red/20 text-brand-brightRed font-extrabold text-xs px-3 py-1 rounded-full uppercase tracking-wider inline-block mb-2 border border-brand-red/30">
+                            WHOLESALE & BULK ORDERS ONLY
+                        </span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold font-display uppercase text-white">
+                            PARTNER WITH <span class="gradient-text-red">SOLEGRIP</span>
+                        </h2>
+                        <p class="text-gray-400 text-sm mt-2">
+                            For team squads, local leagues, and retail distribution inquiries (Minimum order quantities apply).
+                        </p>
+                    </div>
+
+                    <form id="expressOrderForm" class="space-y-6">
+                        
+                        <!-- Full Name & Email -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label for="fullName" class="block text-xs font-bold text-gray-300 uppercase mb-2">
+                                    Full Name <span class="text-brand-brightRed">*</span>
+                                </label>
+                                <input type="text" id="fullName" required placeholder="e.g. Coach Mark" class="w-full bg-brand-dark border border-brand-border focus:border-brand-red rounded-xl px-4 py-3 text-white text-sm focus:outline-none transition">
+                            </div>
+                            <div>
+                                <label for="emailAddress" class="block text-xs font-bold text-gray-300 uppercase mb-2">
+                                    Email Address <span class="text-brand-brightRed">*</span>
+                                </label>
+                                <input type="email" id="emailAddress" required placeholder="e.g. mark@example.com" class="w-full bg-brand-dark border border-brand-border focus:border-brand-red rounded-xl px-4 py-3 text-white text-sm focus:outline-none transition">
+                            </div>
+                        </div>
+
+                        <!-- Mobile Number & Quantity -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label for="contactNumber" class="block text-xs font-bold text-gray-300 uppercase mb-2">
+                                    Mobile Number <span class="text-brand-brightRed">*</span>
+                                </label>
+                                <input type="tel" id="contactNumber" required placeholder="e.g. 0917 123 4567" class="w-full bg-brand-dark border border-brand-border focus:border-brand-red rounded-xl px-4 py-3 text-white text-sm focus:outline-none transition">
+                            </div>
+                            <div>
+                                <label for="quantity" class="block text-xs font-bold text-gray-300 uppercase mb-2">
+                                    Quantity (Bottles / Boxes) <span class="text-brand-brightRed">*</span>
+                                </label>
+                                <input type="text" id="quantity" required placeholder="e.g. 50 bottles / 5 boxes" class="w-full bg-brand-dark border border-brand-border focus:border-brand-red rounded-xl px-4 py-3 text-white text-sm focus:outline-none transition">
+                            </div>
+                        </div>
+
+                        <!-- Other Descriptions -->
+                        <div>
+                            <label for="otherDescriptions" class="block text-xs font-bold text-gray-300 uppercase mb-2">
+                                Other Descriptions / Notes <span class="text-brand-brightRed">*</span>
+                            </label>
+                            <textarea id="otherDescriptions" rows="4" required placeholder="Specify delivery timeline, team/league name, or specific wholesale requirements..." class="w-full bg-brand-dark border border-brand-border focus:border-brand-red rounded-xl px-4 py-3 text-white text-sm focus:outline-none transition resize-none"></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="w-full bg-gradient-to-r from-brand-red via-red-600 to-brand-darkRed text-white font-extrabold text-base uppercase tracking-wider py-4 rounded-xl shadow-xl glow-red hover:brightness-110 transition duration-300 flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-paper-plane text-lg"></i>
+                            <span>Submit Wholesale Inquiry</span>
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Wholesale Inquiry Confirmation Modal -->
+    <div id="orderModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-brand-card border-2 border-brand-red/60 rounded-3xl p-6 sm:p-8 max-w-md w-full relative transform transition-all scale-95 opacity-0" id="modalCard">
+            
+            <div class="text-center space-y-4">
+                <div class="w-16 h-16 bg-brand-red/20 text-brand-brightRed rounded-full flex items-center justify-center mx-auto text-3xl border border-brand-red/40">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+
+                <h3 class="text-2xl font-extrabold font-display uppercase text-white">INQUIRY RECEIVED!</h3>
+                <p class="text-gray-300 text-xs">
+                    Salamat <span id="modalCustomerName" class="font-bold text-brand-brightRed"></span>! Your bulk wholesale inquiry has been submitted successfully.
+                </p>
+
+                <div class="bg-black/60 p-4 rounded-2xl border border-brand-border text-left space-y-2 text-xs">
+                    <div class="flex justify-between text-gray-400">
+                        <span>Email:</span>
+                        <span id="modalEmail" class="text-white font-bold"></span>
+                    </div>
+                    <div class="flex justify-between text-gray-400">
+                        <span>Quantity Requested:</span>
+                        <span id="modalQty" class="text-white font-bold"></span>
+                    </div>
+                    <div class="flex justify-between text-gray-400">
+                        <span>Notes:</span>
+                        <span id="modalDesc" class="text-white font-bold truncate max-w-[170px]"></span>
+                    </div>
+                </div>
+
+                <p class="text-[11px] text-brand-muted">
+                    Our wholesale team will contact your mobile number (<span id="modalContact" class="text-white font-bold"></span>) or email within 24 hours.
+                </p>
+
+                <button id="closeModalBtn" class="w-full bg-brand-red text-white font-extrabold py-3 rounded-xl uppercase text-xs tracking-wider hover:brightness-110 transition shadow-lg">
+                    Done & Back To Page
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Sticky Mobile CTA Bar -->
+    <div class="fixed bottom-0 inset-x-0 bg-brand-card/95 border-t border-brand-red/40 p-3 z-40 md:hidden backdrop-blur-md flex items-center justify-between">
+        <div>
+            <p class="text-[10px] text-gray-400 uppercase font-bold">SoleGrip Spray 60ml</p>
+            <p class="text-base font-extrabold text-brand-brightRed">Wholesale Available</p>
+        </div>
+        <a href="#order" class="bg-brand-red text-white font-extrabold text-xs uppercase px-5 py-2.5 rounded-lg shadow-lg">
+            Inquire Bulk
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-brand-border py-8 text-center text-xs text-brand-muted">
+        <div class="max-w-7xl mx-auto px-4 space-y-3">
+            <p class="font-display text-base font-bold text-white tracking-widest uppercase">
+                <span class="text-brand-brightRed">URDUNIA</span> SPORTS PH
+            </p>
+            <p>© 2026 SoleGrip Shoe Grip Enhancer | Urdunia Sports PH. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Script -->
+    <script src="script.js" defer></script>
+</body>
+</html>
